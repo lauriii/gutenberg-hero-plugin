@@ -1,0 +1,14 @@
+{
+  "name": "custom-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "wp-scripts start --webpack-copy-php --webpack-src-dir=blocks",
+    "build": "wp-scripts build --webpack-copy-php --webpack-src-dir=blocks"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.17.0"
+  }
+}
